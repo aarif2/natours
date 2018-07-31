@@ -1,0 +1,54 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//meadia queries
+@mixin respond ($breakepoint) {
+
+    @if $breakepoint==phn-sm {
+        @media (max-width: 22.375em) {
+            @content
+        }
+    }
+
+    @if $breakepoint==phone {
+        @media (max-width: 37.5em) {
+            @content
+        }
+    }
+
+    @if $breakepoint==tab-port {
+        @media (max-width: 56.25em) {
+            @content
+        }
+    }
+
+    @if $breakepoint==tab-land {
+        @media (max-width: 75em) {
+            @content
+        }
+    }
+    
+    @if $breakepoint==tab-land-min {
+        @media (min-width: 75em) {
+            @content
+        }
+    }
+
+    @if $breakepoint==big-desk {
+        @media (min-width: 122.5em) {
+            @content
+        }
+    }
+}

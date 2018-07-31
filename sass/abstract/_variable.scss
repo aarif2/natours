@@ -1,0 +1,35 @@
+$lgreen: #7ed56f;
+$mgreen: #55c57a;
+$dgreen: #28b485;
+
+$bg-grey: #f7f7f7;
+
+//gradient-color
+$gr-yellow: linear-gradient( to right bottom, #ffdf40, #ff8359);
+$gr-yellow-t: linear-gradient( to right bottom, 
+    rgba(255, 223, 64, 0.85), 
+    rgba(255, 131, 89, 0.85),);
+$gr-green: linear-gradient( to right bottom, #46eeaa, #2cbfc7);
+$gr-green-t: linear-gradient( to right bottom, 
+    rgba(70, 238, 170, 0.85), 
+    rgba(44, 191, 199, 0.85));
+$gr-blue: linear-gradient( to right bottom, #5496ff, #8739ef);
+$gr-blue-t: linear-gradient( to right bottom, 
+    rgba(84, 150, 255, 0.85), 
+    rgba(135, 57, 239, 0.85));
+
+$gr-purple: linear-gradient( to right bottom, #ff63de, #b122e5);
+$gr-orange: linear-gradient( to right bottom, #ff7c6e, #f5317f);
+
+$black: #000;
+$grey: #777;
+$white: #fff;
+
+//font-size
+$default: 1.6rem;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
